@@ -27,8 +27,8 @@ complete_names <- function(x, template, allow.invalid = FALSE)
         pid <- pid[!is.na(pid)]
     } else {
         if (any(is.na(pid)))
-            warning("Invalid or ambiguous component names: ",
-                     paste(names(x)[which(is.na(pid))], collapse = ", ") )
+            warning(gettextf("Invalid or ambiguous component names: %s",
+                     paste(names(x)[which(is.na(pid))], collapse = ", ")))
     }
     if (any(duplicated(pid))) stop("Multiple matches to component name")
     names(x) <- names(template)[pid]

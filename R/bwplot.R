@@ -817,7 +817,7 @@ panel.violin <-
         do.call(data.frame, darg)
     }, error = function(e) {
         darg$index <- NULL
-        stop(gettextf("length of '%s' must be  1 or multiple of group length (%d)",
+        stop(gettextf("length of '%s' must be 1 or multiple of group length (%d)",
                       paste0(names(darg), collapse = ', '),
                       length(numeric.list)))
     })
@@ -850,8 +850,7 @@ panel.violin <-
       do.call(data.frame, plot.arg)
       }, error = function(e) {
         plot.arg$index <- NULL
-        stop(sprintf('%s must be length 1 or a vector of 
-             length multiple of group length (%d)',
+        stop(gettextf("%s must be length 1 or a vector of length multiple of group length (%d)",
                      paste0(names(plot.arg), collapse = ', '),
                      length(numeric.list)))
       })

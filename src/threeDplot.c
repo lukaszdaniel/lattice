@@ -1,4 +1,5 @@
 #include "threeDplot.h"
+#include "localization.h"
 
 
 
@@ -151,7 +152,7 @@ calculate_angles(double *x, double *y, double *z,
     misc[1] = cos(acos(misc[1]) / 2);
 
     if (misc[0] < 0 || misc[1] < 0) 
-	error("bug in wireframe calculations: cosines supposed to be non-negative but not");
+	error(_("bug in wireframe calculations: cosines supposed to be non-negative but not"));
 
     return;
 }

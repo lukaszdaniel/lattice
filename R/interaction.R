@@ -80,7 +80,7 @@ panel.identify <-
         ly <- convertY(ll$y, "points", TRUE)
         pdists <- sqrt((px - lx)^2 + (py - ly)^2)
         if (min(pdists, na.rm = TRUE) > threshold)
-            warning("no observations within ", threshold, " points")
+            warning(gettextf("no observations within %d points", threshold))
         else
         {
             w <- which.min(pdists)
@@ -146,7 +146,7 @@ panel.3didentify <-
         ly <- convertY(ll$y, "points", TRUE)
         pdists <- sqrt((px - lx)^2 + (py - ly)^2)
         if (min(pdists, na.rm = TRUE) > threshold)
-            warning("no observations within ", threshold, " points")
+            warning(gettextf("no observations within %d points", threshold))
         else
         {
             w <- which.min(pdists)
@@ -753,7 +753,7 @@ splom_linkPoint <-
     pdists <- sqrt((data.xp - xpoints)^2 + (data.yp - ypoints)^2)
     if (min(pdists, na.rm = TRUE) > threshold)
     {
-        if (verbose) warning("no points within ", threshold, " points of click")
+        if (verbose) warning(gettextf("no points within %d points of click", threshold))
         upViewport(depth)
         return(numeric(0))
     }
