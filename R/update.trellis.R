@@ -177,7 +177,7 @@ update.trellis <-
 
         if (is.list(par.strip.text))
             object$par.strip.text <- updateList(object$par.strip.text, par.strip.text)
-        else warning("'par.strip.text' must be a list")
+        else warning(gettextf("'%s' must be a list", "par.strip.text"))
     }
     if (!missing(skip)) object$skip <- skip
     if (!missing(strip))
@@ -202,7 +202,7 @@ update.trellis <-
         ## that are not specified explicitly
         if (is.list(par.settings))
             object$par.settings <- updateList(object$par.settings, par.settings)
-        else warning("'par.settings' must be a list")
+        else warning(gettextf("'%s' must be a list", "par.settings"))
     }
     if (!missing(plot.args))
     {
@@ -210,7 +210,7 @@ update.trellis <-
         ## that are not specified explicitly
         if (is.list(plot.args))
             object$plot.args <- updateList(object$plot.args, plot.args)
-        else warning("'plot.args' must be a list")
+        else warning(gettextf("'%s' must be a list", "plot.args"))
     }
     if (!missing(lattice.options))
     {
@@ -218,7 +218,7 @@ update.trellis <-
         ## that are not specified explicitly
         if (is.list(lattice.options))
             object$lattice.options <- updateList(object$lattice.options, lattice.options)
-        else warning("'lattice.options' must be a list")
+        else warning(gettextf("'%s' must be a list", "lattice.options"))
     }
 
     ## during construction of trellis objects, perm.cond and
@@ -234,7 +234,7 @@ update.trellis <-
             object$perm.cond <- seq_len(length(object$condlevels))
         else if (all(sort(perm.cond) == object$perm.cond))
             object$perm.cond <- perm.cond
-        else stop("Invalid value of 'perm.cond'")
+        else stop(gettextf("invalid '%s' value", "perm.cond"))
     }
     if (!missing(index.cond))
     {
@@ -471,7 +471,7 @@ update.trellis <-
             }
             else warning(gettextf("Unrecognized value of 'aspect': '%s'", as.character(aspect)))
         }
-        else warning("Invalid value of 'aspect'")
+        else warning(gettextf("invalid '%s' value", "aspect"))
     }
 
     if (!missing(prepanel))

@@ -156,7 +156,7 @@ componentName <- function(name, x, y) {
 
 draw.key <- function(key, draw = FALSE, vp = NULL, ...)
 {
-    if (!is.list(key)) stop("key must be a list")
+    if (!is.list(key)) stop(gettextf("'%s' must be a list", "key"))
     
     max.length <- 0
 
@@ -781,7 +781,7 @@ widthDetails.latticeKey <- function(x) {
 
 draw.colorkey <- function(key, draw = FALSE, vp = NULL)
 {
-    if (!is.list(key)) stop("key must be a list")
+    if (!is.list(key)) stop(gettextf("'%s' must be a list", "key"))
     
     process.key <-
         function(col = regions$col,

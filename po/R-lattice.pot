@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: lattice 0.22-6\n"
-"POT-Creation-Date: 2024-09-11 18:18\n"
+"POT-Creation-Date: 2024-09-13 17:42\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,6 +15,22 @@ msgstr ""
 #. R/bwplot.R: gettextf("%s must be length 1 or a vector of length multiple of group length (%d)",     paste0(names(plot.arg), collapse = ", "), length(numeric.list))
 
 msgid "%s must be length 1 or a vector of length multiple of group length (%d)"
+msgstr ""
+
+
+#: R/legend.R: 0
+#: R/update.trellis.R: 0
+#: R/update.trellis.R: 0
+#: R/update.trellis.R: 0
+#: R/update.trellis.R: 0
+#. R/legend.R: gettextf("'%s' must be a list", "key")
+#. R/legend.R: gettextf("'%s' must be a list", "key")
+#. R/update.trellis.R: gettextf("'%s' must be a list", "par.strip.text")
+#. R/update.trellis.R: gettextf("'%s' must be a list", "par.settings")
+#. R/update.trellis.R: gettextf("'%s' must be a list", "plot.args")
+#. R/update.trellis.R: gettextf("'%s' must be a list", "lattice.options")
+
+msgid "'%s' must be a list"
 msgstr ""
 
 
@@ -89,13 +105,6 @@ msgid "'formula' must be a formula object"
 msgstr ""
 
 
-#: R/update.trellis.R: 0
-#. R/update.trellis.R: warning("'lattice.options' must be a list")
-
-msgid "'lattice.options' must be a list"
-msgstr ""
-
-
 #: R/common.R: 0
 #. R/common.R: stop("'length' and 'prop' cannot both be specified")
 
@@ -136,27 +145,6 @@ msgstr ""
 #. R/bwplot.R: warning("'origin' forced to 0 for stacked bars")
 
 msgid "'origin' forced to 0 for stacked bars"
-msgstr ""
-
-
-#: R/update.trellis.R: 0
-#. R/update.trellis.R: warning("'par.settings' must be a list")
-
-msgid "'par.settings' must be a list"
-msgstr ""
-
-
-#: R/update.trellis.R: 0
-#. R/update.trellis.R: warning("'par.strip.text' must be a list")
-
-msgid "'par.strip.text' must be a list"
-msgstr ""
-
-
-#: R/update.trellis.R: 0
-#. R/update.trellis.R: warning("'plot.args' must be a list")
-
-msgid "'plot.args' must be a list"
 msgstr ""
 
 
@@ -357,38 +345,10 @@ msgid "Invalid key, need at least one component named lines, text, rect or point
 msgstr ""
 
 
-#: R/levelplot.R: 0
-#. R/levelplot.R: stop("Invalid label.style")
-
-msgid "Invalid label.style"
-msgstr ""
-
-
 #: R/scales.R: 0
 #. R/scales.R: gettextf("Invalid or ambiguous component names: %s", paste(names(x)[which(is.na(pid))],     collapse = ", "))
 
 msgid "Invalid or ambiguous component names: %s"
-msgstr ""
-
-
-#: R/update.trellis.R: 0
-#. R/update.trellis.R: warning("Invalid value of 'aspect'")
-
-msgid "Invalid value of 'aspect'"
-msgstr ""
-
-
-#: R/axis.R: 0
-#. R/axis.R: stop("Invalid value of 'log'")
-
-msgid "Invalid value of 'log'"
-msgstr ""
-
-
-#: R/update.trellis.R: 0
-#. R/update.trellis.R: stop("Invalid value of 'perm.cond'")
-
-msgid "Invalid value of 'perm.cond'"
 msgstr ""
 
 
@@ -410,13 +370,6 @@ msgstr ""
 #. R/common.R: stop("Invalid value of index.cond")
 
 msgid "Invalid value of index.cond"
-msgstr ""
-
-
-#: R/common.R: 0
-#. R/common.R: stop("Invalid value of perm.cond")
-
-msgid "Invalid value of perm.cond"
 msgstr ""
 
 
@@ -698,6 +651,23 @@ msgid "improper length of 'lim'"
 msgstr ""
 
 
+#: R/axis.R: 0
+#: R/common.R: 0
+#: R/common.R: 0
+#: R/levelplot.R: 0
+#: R/update.trellis.R: 0
+#: R/update.trellis.R: 0
+#. R/axis.R: gettextf("invalid '%s' value", "log")
+#. R/common.R: gettextf("invalid '%s' value", "perm.cond")
+#. R/common.R: gettextf("invalid '%s' value", "layout")
+#. R/levelplot.R: gettextf("invalid '%s' value", "label.style")
+#. R/update.trellis.R: gettextf("invalid '%s' value", "perm.cond")
+#. R/update.trellis.R: gettextf("invalid '%s' value", "aspect")
+
+msgid "invalid '%s' value"
+msgstr ""
+
+
 #: R/common.R: 0
 #. R/common.R: gettextf("invalid dimension '%s'", as.character(dimension))
 
@@ -709,21 +679,6 @@ msgstr ""
 #. R/common.R: stop("invalid model")
 
 msgid "invalid model"
-msgstr ""
-
-
-#: R/common.R: 0
-#. R/common.R: stop("invalid value for layout")
-
-msgid "invalid value for layout"
-msgstr ""
-
-
-#: R/legend.R: 0
-#. R/legend.R: stop("key must be a list")
-#. R/legend.R: stop("key must be a list")
-
-msgid "key must be a list"
 msgstr ""
 
 

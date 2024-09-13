@@ -665,7 +665,7 @@ cond.orders <- function(foo, ...)
     {
         if (all(sort(foo$perm.cond) == perm.cond))
             perm.cond <- foo$perm.cond
-        else  stop("Invalid value of perm.cond")
+        else  stop(gettextf("invalid '%s' value", "perm.cond"))
     }
     if (!is.null(foo$index.cond))
     {
@@ -751,7 +751,7 @@ compute.layout <-
         else ## length(layout) == 3
         {
             if (layout[3] < 1)
-                stop("invalid value for layout")
+                stop(gettextf("invalid '%s' value", "layout"))
             if (layout[3] > min.page)
                 warning("More pages in layout than seem to be necessary.")
         }

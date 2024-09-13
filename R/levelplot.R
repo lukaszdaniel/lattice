@@ -391,7 +391,7 @@ panel.levelplot <-
                             rotangle <- atan(asp * slopes[textloc] * diff(rx) / diff(ry)) * 180 / base::pi
                         }
                     }
-                    else stop("Invalid label.style")
+                    else stop(gettextf("invalid '%s' value", "label.style"))
 
                     i <- match(val$level, at)
 

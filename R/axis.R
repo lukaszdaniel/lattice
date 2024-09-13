@@ -354,7 +354,7 @@ formattedTicksAndLabels.default <-
         logbase <-
             if (is.numeric(logsc)) logsc
             else if (logsc == "e") exp(1)
-            else stop("Invalid value of 'log'")
+            else stop(gettextf("invalid '%s' value", "log"))
     logpaste <-
         if (have.log) paste(as.character(logsc), "^", sep = "")
         else ""

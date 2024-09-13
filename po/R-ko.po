@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 3.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2024-09-11 18:18\n"
+"POT-Creation-Date: 2024-09-13 17:42\n"
 "PO-Revision-Date: 2015-02-09 00:06-0600\n"
 "Last-Translator:Chel Hee Lee  <chl948@mail.usask.ca>\n"
 "Language-Team: Chel Hee Lee  <chl948@mail.usask.ca>\n"
@@ -28,6 +28,17 @@ msgstr ""
 #: R/bwplot.R:0
 msgid "%s must be length 1 or a vector of length multiple of group length (%d)"
 msgstr ""
+
+#. R/legend.R: gettextf("'%s' must be a list", "key")
+#. R/legend.R: gettextf("'%s' must be a list", "key")
+#. R/update.trellis.R: gettextf("'%s' must be a list", "par.strip.text")
+#. R/update.trellis.R: gettextf("'%s' must be a list", "par.settings")
+#. R/update.trellis.R: gettextf("'%s' must be a list", "plot.args")
+#. R/update.trellis.R: gettextf("'%s' must be a list", "lattice.options")
+#: R/legend.R:0 R/update.trellis.R:0
+#, fuzzy
+msgid "'%s' must be a list"
+msgstr "key는 반드시 리스트(list)이어야 합니다"
 
 #. R/panels.R: warning("'a' and 'b' are overridden by 'coef'")
 #: R/panels.R:0
@@ -81,11 +92,6 @@ msgstr "'f.value'은 사용되지 않습니다."
 msgid "'formula' must be a formula object"
 msgstr "model에 입력된 객체의 클래스는 반드시 포뮬러(formula)이어야 합니다."
 
-#. R/update.trellis.R: warning("'lattice.options' must be a list")
-#: R/update.trellis.R:0
-msgid "'lattice.options' must be a list"
-msgstr "'lattice.options'은 반드시 리스트(list)이어야 합니다."
-
 #. R/common.R: stop("'length' and 'prop' cannot both be specified")
 #: R/common.R:0
 msgid "'length' and 'prop' cannot both be specified"
@@ -116,21 +122,6 @@ msgstr "'nrpoints'는 반드시 0 이상의 값을 가지는 수치형 스칼라
 #: R/bwplot.R:0
 msgid "'origin' forced to 0 for stacked bars"
 msgstr "분할된 바챠트(stacked bars)의 경우에 'origin'의 값은 자동으로 0으로 변경됩니다."
-
-#. R/update.trellis.R: warning("'par.settings' must be a list")
-#: R/update.trellis.R:0
-msgid "'par.settings' must be a list"
-msgstr "'par.settings'는 반드시 리스트(list)이어야 합니다"
-
-#. R/update.trellis.R: warning("'par.strip.text' must be a list")
-#: R/update.trellis.R:0
-msgid "'par.strip.text' must be a list"
-msgstr "'par.strip.text'는 반드시 리스트(list)이어야 합니다"
-
-#. R/update.trellis.R: warning("'plot.args' must be a list")
-#: R/update.trellis.R:0
-msgid "'plot.args' must be a list"
-msgstr "'plot.args'는 반드시 리스트(list)이어야 합니다"
 
 #. R/settings.R: warning("'trellis.device' has changed, 'bg' may not be doing what you think it is")
 #: R/settings.R:0
@@ -276,30 +267,10 @@ msgstr "잘못된 인덱스입니다"
 msgid "Invalid key, need at least one component named lines, text, rect or points"
 msgstr "사용할 수 없는 key입니다.  최소한 이름이 주어진 line, text, rect 또는 point와 같은 구성요소가 하나 이상 필요합니다."
 
-#. R/levelplot.R: stop("Invalid label.style")
-#: R/levelplot.R:0
-msgid "Invalid label.style"
-msgstr "올바른 label.styel이 아닙니다."
-
 #. R/scales.R: gettextf("Invalid or ambiguous component names: %s", paste(names(x)[which(is.na(pid))],     collapse = ", "))
 #: R/scales.R:0
 msgid "Invalid or ambiguous component names: %s"
 msgstr ""
-
-#. R/update.trellis.R: warning("Invalid value of 'aspect'")
-#: R/update.trellis.R:0
-msgid "Invalid value of 'aspect'"
-msgstr "'aspect'의 값이 잘못되었습니다"
-
-#. R/axis.R: stop("Invalid value of 'log'")
-#: R/axis.R:0
-msgid "Invalid value of 'log'"
-msgstr "'log' 값이 올바르지 않습니다."
-
-#. R/update.trellis.R: stop("Invalid value of 'perm.cond'")
-#: R/update.trellis.R:0
-msgid "Invalid value of 'perm.cond'"
-msgstr "'perm.cond'의 값이 올바르지 않습니다."
 
 #. R/miscellaneous.R: warning("Invalid value of 'pos' ignored.")
 #: R/miscellaneous.R:0
@@ -315,11 +286,6 @@ msgstr "'tri.upper/tri.lower'의 값이 올바르지 않아 무효처리 되었�
 #: R/common.R:0
 msgid "Invalid value of index.cond"
 msgstr "index.cond의 값이 올바르지 않습니다."
-
-#. R/common.R: stop("Invalid value of perm.cond")
-#: R/common.R:0
-msgid "Invalid value of perm.cond"
-msgstr "perm.cond의 값이 올바르지 않습니다."
 
 #. R/common.R: stop("Length check mismatch; you have found a bug!")
 #: R/common.R:0
@@ -521,6 +487,17 @@ msgstr "text의 첫번째 구성요소는 반드시 라벨을 구성요소로 �
 msgid "improper length of 'lim'"
 msgstr "'lim'의 길이가 올바르지 않습니다."
 
+#. R/axis.R: gettextf("invalid '%s' value", "log")
+#. R/common.R: gettextf("invalid '%s' value", "perm.cond")
+#. R/common.R: gettextf("invalid '%s' value", "layout")
+#. R/levelplot.R: gettextf("invalid '%s' value", "label.style")
+#. R/update.trellis.R: gettextf("invalid '%s' value", "perm.cond")
+#. R/update.trellis.R: gettextf("invalid '%s' value", "aspect")
+#: R/axis.R:0 R/common.R:0 R/levelplot.R:0 R/update.trellis.R:0
+#, fuzzy
+msgid "invalid '%s' value"
+msgstr "layout에 사용할 수 없는 값이 발견되었습니다."
+
 #. R/common.R: gettextf("invalid dimension '%s'", as.character(dimension))
 #: R/common.R:0
 msgid "invalid dimension '%s'"
@@ -530,17 +507,6 @@ msgstr "'%s'은 사용할 수 없는 차원수(dimension)입니다."
 #: R/common.R:0
 msgid "invalid model"
 msgstr "사용할 수 있는 모형이 아닙니다."
-
-#. R/common.R: stop("invalid value for layout")
-#: R/common.R:0
-msgid "invalid value for layout"
-msgstr "layout에 사용할 수 없는 값이 발견되었습니다."
-
-#. R/legend.R: stop("key must be a list")
-#. R/legend.R: stop("key must be a list")
-#: R/legend.R:0
-msgid "key must be a list"
-msgstr "key는 반드시 리스트(list)이어야 합니다"
 
 #. R/legend.R: stop("key specifies 'labels$labels' but not 'labels$at'", call. = FALSE)
 #: R/legend.R:0
@@ -739,6 +705,36 @@ msgstr "x는 반드시 2개의 열을 가진 행렬이어야 합니다"
 #: R/qq.R:0
 msgid "y must have exactly 2 levels"
 msgstr "y는 반드시 2개의 수준(levels)을 가지고 있어야 합니다."
+
+#~ msgid "'lattice.options' must be a list"
+#~ msgstr "'lattice.options'은 반드시 리스트(list)이어야 합니다."
+
+#~ msgid "'par.settings' must be a list"
+#~ msgstr "'par.settings'는 반드시 리스트(list)이어야 합니다"
+
+#~ msgid "'par.strip.text' must be a list"
+#~ msgstr "'par.strip.text'는 반드시 리스트(list)이어야 합니다"
+
+#~ msgid "'plot.args' must be a list"
+#~ msgstr "'plot.args'는 반드시 리스트(list)이어야 합니다"
+
+#~ msgid "Invalid label.style"
+#~ msgstr "올바른 label.styel이 아닙니다."
+
+#~ msgid "Invalid value of 'aspect'"
+#~ msgstr "'aspect'의 값이 잘못되었습니다"
+
+#~ msgid "Invalid value of 'perm.cond'"
+#~ msgstr "'perm.cond'의 값이 올바르지 않습니다."
+
+#~ msgid "Invalid value of perm.cond"
+#~ msgstr "perm.cond의 값이 올바르지 않습니다."
+
+#~ msgid "invalid value for layout"
+#~ msgstr "layout에 사용할 수 없는 값이 발견되었습니다."
+
+#~ msgid "Invalid value of 'log'"
+#~ msgstr "'log' 값이 올바르지 않습니다."
 
 #~ msgid ","
 #~ msgstr ","

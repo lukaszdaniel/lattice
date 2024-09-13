@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 4.0.0 / Lattice 0.20.40\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2024-09-11 18:18\n"
+"POT-Creation-Date: 2024-09-13 17:42\n"
 "PO-Revision-Date: 2020-04-01 15:02+0200\n"
 "Last-Translator: Detlef Steuer <steuer@hsu-hh.de>\n"
 "Language-Team: German <debian-l10n-german@lists.debian.org>\n"
@@ -21,6 +21,17 @@ msgstr ""
 #: R/bwplot.R:0
 msgid "%s must be length 1 or a vector of length multiple of group length (%d)"
 msgstr ""
+
+#. R/legend.R: gettextf("'%s' must be a list", "key")
+#. R/legend.R: gettextf("'%s' must be a list", "key")
+#. R/update.trellis.R: gettextf("'%s' must be a list", "par.strip.text")
+#. R/update.trellis.R: gettextf("'%s' must be a list", "par.settings")
+#. R/update.trellis.R: gettextf("'%s' must be a list", "plot.args")
+#. R/update.trellis.R: gettextf("'%s' must be a list", "lattice.options")
+#: R/legend.R:0 R/update.trellis.R:0
+#, fuzzy
+msgid "'%s' must be a list"
+msgstr "Schlüssel muss eine Liste sein"
 
 #. R/panels.R: warning("'a' and 'b' are overridden by 'coef'")
 #: R/panels.R:0
@@ -74,11 +85,6 @@ msgstr "'f.value' nicht unterstützt. Wird ignoriert."
 msgid "'formula' must be a formula object"
 msgstr "Modell muss ein Formelobjekt sein"
 
-#. R/update.trellis.R: warning("'lattice.options' must be a list")
-#: R/update.trellis.R:0
-msgid "'lattice.options' must be a list"
-msgstr "'lattice.options' muss eine Liste sein"
-
 #. R/common.R: stop("'length' and 'prop' cannot both be specified")
 #: R/common.R:0
 msgid "'length' and 'prop' cannot both be specified"
@@ -109,21 +115,6 @@ msgstr "'nrpoints' sollte numerisch skalar mit Wert >= 0 sein."
 #: R/bwplot.R:0
 msgid "'origin' forced to 0 for stacked bars"
 msgstr "'origin' wurde für gestapelte Balken zwangsweise auf 0 gesetzt"
-
-#. R/update.trellis.R: warning("'par.settings' must be a list")
-#: R/update.trellis.R:0
-msgid "'par.settings' must be a list"
-msgstr "'par.settings' muss eine Liste sein"
-
-#. R/update.trellis.R: warning("'par.strip.text' must be a list")
-#: R/update.trellis.R:0
-msgid "'par.strip.text' must be a list"
-msgstr "'par.strip.text' muss eine Liste sein"
-
-#. R/update.trellis.R: warning("'plot.args' must be a list")
-#: R/update.trellis.R:0
-msgid "'plot.args' must be a list"
-msgstr "'plot.args' muss eine Liste sein"
 
 #. R/settings.R: warning("'trellis.device' has changed, 'bg' may not be doing what you think it is")
 #: R/settings.R:0
@@ -269,31 +260,11 @@ msgstr "Falsche Indizes"
 msgid "Invalid key, need at least one component named lines, text, rect or points"
 msgstr "Ungültiger Schlüssel. Es wird mindestens eine Komponente mit Namen 'lines', 'text', 'rect' oder 'points' benötigt."
 
-#. R/levelplot.R: stop("Invalid label.style")
-#: R/levelplot.R:0
-msgid "Invalid label.style"
-msgstr "Ungültiger label.style"
-
 #. R/scales.R: gettextf("Invalid or ambiguous component names: %s", paste(names(x)[which(is.na(pid))],     collapse = ", "))
 #: R/scales.R:0
 #, fuzzy
 msgid "Invalid or ambiguous component names: %s"
 msgstr "Unzulässige oder zweideutige Komponentennamen:"
-
-#. R/update.trellis.R: warning("Invalid value of 'aspect'")
-#: R/update.trellis.R:0
-msgid "Invalid value of 'aspect'"
-msgstr "Ungültiger Wert von 'aspect'"
-
-#. R/axis.R: stop("Invalid value of 'log'")
-#: R/axis.R:0
-msgid "Invalid value of 'log'"
-msgstr "Ungültiger Wert von 'log'"
-
-#. R/update.trellis.R: stop("Invalid value of 'perm.cond'")
-#: R/update.trellis.R:0
-msgid "Invalid value of 'perm.cond'"
-msgstr "Ungültiger Wert von 'perm.cond'"
 
 #. R/miscellaneous.R: warning("Invalid value of 'pos' ignored.")
 #: R/miscellaneous.R:0
@@ -309,11 +280,6 @@ msgstr "Unzulässiger Wert für 'tri.upper/tri.lower' ignoriert."
 #: R/common.R:0
 msgid "Invalid value of index.cond"
 msgstr "Ungültiger Wert von index.cond"
-
-#. R/common.R: stop("Invalid value of perm.cond")
-#: R/common.R:0
-msgid "Invalid value of perm.cond"
-msgstr "Ungültiger Wert von perm.cond"
 
 #. R/common.R: stop("Length check mismatch; you have found a bug!")
 #: R/common.R:0
@@ -516,6 +482,17 @@ msgstr "erste Komponente des Textes muss ein Vektor aus Bezeichnungen sein"
 msgid "improper length of 'lim'"
 msgstr "ungeeignete Länge von 'lim'"
 
+#. R/axis.R: gettextf("invalid '%s' value", "log")
+#. R/common.R: gettextf("invalid '%s' value", "perm.cond")
+#. R/common.R: gettextf("invalid '%s' value", "layout")
+#. R/levelplot.R: gettextf("invalid '%s' value", "label.style")
+#. R/update.trellis.R: gettextf("invalid '%s' value", "perm.cond")
+#. R/update.trellis.R: gettextf("invalid '%s' value", "aspect")
+#: R/axis.R:0 R/common.R:0 R/levelplot.R:0 R/update.trellis.R:0
+#, fuzzy
+msgid "invalid '%s' value"
+msgstr "ungültiger Wert für Layout"
+
 #. R/common.R: gettextf("invalid dimension '%s'", as.character(dimension))
 #: R/common.R:0
 msgid "invalid dimension '%s'"
@@ -525,17 +502,6 @@ msgstr "ungültige Dimension '%s'"
 #: R/common.R:0
 msgid "invalid model"
 msgstr "ungültiges Modell"
-
-#. R/common.R: stop("invalid value for layout")
-#: R/common.R:0
-msgid "invalid value for layout"
-msgstr "ungültiger Wert für Layout"
-
-#. R/legend.R: stop("key must be a list")
-#. R/legend.R: stop("key must be a list")
-#: R/legend.R:0
-msgid "key must be a list"
-msgstr "Schlüssel muss eine Liste sein"
 
 #. R/legend.R: stop("key specifies 'labels$labels' but not 'labels$at'", call. = FALSE)
 #: R/legend.R:0
@@ -733,6 +699,36 @@ msgstr "x muss eine Matrix mit 2 Spalten sein"
 #: R/qq.R:0
 msgid "y must have exactly 2 levels"
 msgstr "y muss genau 2 Stufen haben"
+
+#~ msgid "'lattice.options' must be a list"
+#~ msgstr "'lattice.options' muss eine Liste sein"
+
+#~ msgid "'par.settings' must be a list"
+#~ msgstr "'par.settings' muss eine Liste sein"
+
+#~ msgid "'par.strip.text' must be a list"
+#~ msgstr "'par.strip.text' muss eine Liste sein"
+
+#~ msgid "'plot.args' must be a list"
+#~ msgstr "'plot.args' muss eine Liste sein"
+
+#~ msgid "Invalid label.style"
+#~ msgstr "Ungültiger label.style"
+
+#~ msgid "Invalid value of 'aspect'"
+#~ msgstr "Ungültiger Wert von 'aspect'"
+
+#~ msgid "Invalid value of 'perm.cond'"
+#~ msgstr "Ungültiger Wert von 'perm.cond'"
+
+#~ msgid "Invalid value of perm.cond"
+#~ msgstr "Ungültiger Wert von perm.cond"
+
+#~ msgid "invalid value for layout"
+#~ msgstr "ungültiger Wert für Layout"
+
+#~ msgid "Invalid value of 'log'"
+#~ msgstr "Ungültiger Wert von 'log'"
 
 #~ msgid ","
 #~ msgstr ","
