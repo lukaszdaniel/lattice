@@ -104,7 +104,7 @@ msgstr "'f.value' nie jest wspierane; ignorowanie"
 #. R/dataframe-methods.R: stop("'formula' must be a formula object")
 #: R/dataframe-methods.R:0
 msgid "'formula' must be a formula object"
-msgstr "argument 'formula' musi być obiektem formuły"
+msgstr "argument 'formula' musi być obiektem klasy \"formula\""
 
 # lattice/R/common.R: 498
 # stop("'length' and 'prop' cannot both be specified")
@@ -180,7 +180,7 @@ msgstr "'type' posiada niewspierane wartości"
 #. R/splom.R: stop("'varnames' has wrong length.")
 #: R/parallel.R:0 R/splom.R:0
 msgid "'varnames' has wrong length."
-msgstr "argument 'varnames' posiada błędną długość"
+msgstr "argument 'varnames' posiada błędną długość."
 
 # lattice/R/levelplot.R: 943
 # warning("'x' values are not equispaced; output may be wrong")
@@ -898,7 +898,7 @@ msgstr "zbyt mało wierszy dla kolumn"
 #. R/panels.R: gettextf("only using the first two of %d regression coefficients",     p)
 #: R/panels.R:0
 msgid "only using the first two of %d regression coefficients"
-msgstr "używanie jedynie pierwszych dwóch z %d współczynników regresji"
+msgstr "używanie tylko pierwszych dwóch z %d współczynników regresji"
 
 # lattice/R/interaction.R: 427
 # stop("panel position unspecified or invalid")
