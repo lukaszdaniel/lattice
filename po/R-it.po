@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R-lattice\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2024-09-13 17:42\n"
+"POT-Creation-Date: 2025-03-31 17:47\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Daniele Medri <dmedri@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
@@ -79,15 +79,46 @@ msgstr "'expr' dev'essere una funzione o un'espressione contenente 'x'"
 msgid "'f.value' not supported; ignoring"
 msgstr "'f.value' non supportato; ignorato"
 
-#. R/dataframe-methods.R: stop("'formula' must be a formula object")
-#. R/dataframe-methods.R: stop("'formula' must be a formula object")
-#: R/dataframe-methods.R:0
-#, fuzzy
-msgid "'formula' must be a formula object"
+msgid "explicit 'data' specification ignored"
+msgstr "ignorata l'esplicita specificazione di 'data'"
+
+msgid "mismatch in number of packets"
+msgstr "mancata corrispondenza nel numero di pacchetti"
+
+msgid "'type' has unsupported values"
+msgstr "'type' ha valori non supportati"
+
+msgid "Inappropriate arguments"
+msgstr "Argomenti inappropriati"
+
+msgid "shingles can not be concatenated"
+msgstr "shingle non concatenabili"
+
+msgid "model must be a formula object"
 msgstr "il modello dev'essere un oggetto formula"
 
-#. R/common.R: stop("'length' and 'prop' cannot both be specified")
-#: R/common.R:0
+msgid "'multiple=TRUE' ignored ('groups' non-null with 'outer=FALSE')"
+msgstr "'multiple=TRUE' ignorato ('groups' non nulli con 'outer=FALSE')"
+
+msgid "invalid dimension '%s'"
+msgstr "dimensione '%s' non valida"
+
+msgid "invalid model"
+msgstr "modello non valido"
+
+msgid "newFactor cannot be NULL; you have found a bug!"
+msgstr "newFactor non può essere NULL; hai trovato un bug!"
+
+msgid ""
+"newFactor != NULL && groups == NULL does not hold; you have found a bug!"
+msgstr "newFactor != NULL && groups == NULL non regge; hai trovato un bug!"
+
+msgid "Length check mismatch; you have found a bug!"
+msgstr "Il controllo delle lunghezze non corrisponde; hai trovato un bug!"
+
+msgid "Non matching lengths"
+msgstr "Lunghezze non corrispondenti"
+
 msgid "'length' and 'prop' cannot both be specified"
 msgstr "'length' e 'prop' non possono essere entrambi specificati"
 
@@ -96,10 +127,186 @@ msgstr "'length' e 'prop' non possono essere entrambi specificati"
 msgid "'length' must be positive"
 msgstr "'length' dev'essere positivo"
 
-#. R/common.R: warning("'multiple=TRUE' ignored ('groups' non-null with 'outer=FALSE')")
-#: R/common.R:0
-msgid "'multiple=TRUE' ignored ('groups' non-null with 'outer=FALSE')"
-msgstr "'multiple=TRUE' ignorato ('groups' non nulli con 'outer=FALSE')"
+msgid "improper length of 'lim'"
+msgstr "lunghezza di 'lim' impropria"
+
+msgid "Invalid value of perm.cond"
+msgstr "Valore perm.cond non valido"
+
+msgid "Invalid value of index.cond"
+msgstr "Valore di index.cond non valido"
+
+msgid "skip cannot be all TRUE"
+msgstr "i salti non possono essere tutti TRUE"
+
+msgid "layout must have at least 2 elements"
+msgstr "il layout deve avere almeno 2 elementi"
+
+#, fuzzy
+msgid "Inadmissible value of layout."
+msgstr "valore non valido per il layout"
+
+msgid "invalid value for layout"
+msgstr "valore non valido per il layout"
+
+msgid "More pages in layout than seem to be necessary."
+msgstr ""
+
+msgid "a formula must be specified for the 'data.frame' method"
+msgstr ""
+
+#, fuzzy
+msgid "'formula' must be a formula object"
+msgstr "il modello dev'essere un oggetto formula"
+
+msgid "Density"
+msgstr "Densità"
+
+msgid "Can't have log Y-scale"
+msgstr "Non è possibile avere log Y-scale"
+
+msgid "type='%s' can be misleading in this context"
+msgstr "type = '%s' può essere fuorviante in questo contesto"
+
+msgid "problem with 'hist' computations"
+msgstr "problema con le computazioni di 'hist'"
+
+msgid "Count"
+msgstr "Conta"
+
+msgid "Percent of Total"
+msgstr "Percentuale sul totale"
+
+msgid "no observations within"
+msgstr "nessuna osservazione all'interno"
+
+msgid "points"
+msgstr "punti"
+
+msgid "nearest observation already identified"
+msgstr "l'osservazione più vicina è già identificata"
+
+msgid "column must be specified"
+msgstr "la colonna dev'essere specificata"
+
+msgid "row must be specified"
+msgstr "la riga dev'essere specificata"
+
+msgid "panel position unspecified or invalid"
+msgstr "posizione del pannello non specificata o non valida"
+
+msgid ""
+"'trellis.switchFocus' cannot be used to switch to a different 'prefix'.  Use "
+"'trellis.focus' first"
+msgstr ""
+
+msgid "Plot object was not saved, cannot retrieve panel data"
+msgstr ""
+
+msgid "Plot spans multiple pages, only last page can be updated"
+msgstr ""
+
+msgid "You have to first select a panel using trellis.focus()"
+msgstr ""
+
+msgid "Selecting panel at position (%g, %g)"
+msgstr "Selezione del pannello in posizione (%g,%g)"
+
+msgid "No panels available"
+msgstr "Nessun pannello disponibile"
+
+msgid "Click on panel to focus"
+msgstr "Fai clic sul pannello per il focus"
+
+msgid "'f.value' not supported; ignoring"
+msgstr "'f.value' non supportato; ignorato"
+
+msgid "Click to choose one point to highlight"
+msgstr "Fate clic per scegliere un punto da evidenziare"
+
+msgid "no points within"
+msgstr "nessun punto all'interno"
+
+msgid "points of click"
+msgstr "punti di clic"
+
+msgid "component '%s' duplicated in key and legend"
+msgstr "componente '%s' duplicata nella chiave e nella legenda"
+
+msgid "key must be a list"
+msgstr "key dev'essere una lista"
+
+msgid "first component of text must be vector of labels"
+msgstr ""
+
+msgid ""
+"Invalid key, need at least one component named lines, text, rect or points"
+msgstr ""
+"Chiave non valida, è necessario almeno un componente denominato linee, "
+"testo, rettangolo o punti"
+
+msgid "not enough rows for columns"
+msgstr "non ci sono abbastanza righe per colonne"
+
+msgid "Sorry, align=FALSE is not supported"
+msgstr ""
+
+msgid "'at' values are not equispaced; output may be wrong"
+msgstr ""
+
+msgid "key specifies 'labels$labels' but not 'labels$at'"
+msgstr ""
+
+msgid "lengths of key's 'labels$labels' and 'labels$at' differ"
+msgstr ""
+
+msgid "malformed colorkey"
+msgstr "colorkey malformato"
+
+#, fuzzy
+msgid "Invalid value of 'tri.upper/tri.lower' ignored."
+msgstr "Valore di 'perm.cond' non valido"
+
+msgid "Invalid 'shrink' parameter ignored"
+msgstr "Ignorati i parametri 'shrink' non validi"
+
+msgid "Invalid label.style"
+msgstr "label.style non valido"
+
+msgid "device support for raster images unknown, ignoring 'raster=TRUE'"
+msgstr ""
+
+msgid "device has no raster support, ignoring 'raster=TRUE'"
+msgstr ""
+
+msgid "device does not support raster images with NA, ignoring 'raster=TRUE'"
+msgstr ""
+
+msgid "'x' values are not equispaced; output may be wrong"
+msgstr ""
+
+msgid "'y' values are not equispaced; output may be wrong"
+msgstr ""
+
+msgid "x must be (coercible to be) a factor"
+msgstr "x dev'essere (coercibile per essere) un fattore"
+
+msgid "error"
+msgstr "errore"
+
+#, fuzzy
+msgid "Invalid value of 'pos' ignored."
+msgstr "Valore di 'perm.cond' non valido"
+
+msgid "(loaded the KernSmooth namespace)"
+msgstr "(caricato il namespace KernSmooth)"
+
+msgid ""
+"panel.smoothScatter() requires the KernSmooth package, but unable to load "
+"KernSmooth namespace"
+msgstr ""
+"panel.smoothScatter() richiede il pacchetto KernSmooth, ma non possibile "
+"caricarne il namespace"
 
 #. R/panel.smoothscatter.R: stop("'nbin' must be numeric of length 1 or 2")
 #: R/panel.smoothscatter.R:0
