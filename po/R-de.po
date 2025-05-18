@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 4.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2025-03-31 17:47\n"
+"POT-Creation-Date: 2025-05-18 13:37\n"
 "PO-Revision-Date: 2025-03-18 11:16+0100\n"
 "Last-Translator: Detlef Steuer <steuer@hsu-hh.de>\n"
 "Language-Team: German <debian-l10n-german@lists.debian.org>\n"
@@ -53,10 +53,10 @@ msgstr "'aspect=\"iso\"' ungefähr seit 'relation=\"free\"'"
 msgid "'at' missing or incompatible with 'labels'"
 msgstr "'at' fehlt oder ist inkompatibel mit 'labels'"
 
-msgid "specifying 'labels' but not 'at' may lead to unexpected results"
-msgstr ""
-"Spezifizieren von 'labels', aber nicht von 'at' kann zu unerwarteten "
-"Ergebnissen führen"
+#. R/legend.R: warning("'at' values are not equispaced; output may be wrong")
+#: R/legend.R:0
+msgid "'at' values are not equispaced; output may be wrong"
+msgstr "'at' Werte sind nicht äquidistant; Ausgabe kann falsch sein"
 
 #. R/panel.smoothscatter.R: stop("'bandwidth' must be numeric")
 #: R/panel.smoothscatter.R:0
@@ -68,61 +68,24 @@ msgstr "'bandwidth' muss numerisch sein"
 msgid "'drop=TRUE' ignored"
 msgstr "'drop=TRUE' ignoriert"
 
-msgid "length of '%s' must be  1 or multiple of group length (%d)"
-msgstr "Länge von '%s' muss 1 sein oder ein Vielfaches der Gruppenlänge (%d)"
-
-msgid ""
-"%s must be length 1 or a vector of \n"
-"             length multiple of group length (%d)"
+#. R/panels.R: stop("'expr' must be a function or an expression containing 'x'")
+#: R/panels.R:0
+msgid "'expr' must be a function or an expression containing 'x'"
 msgstr ""
-"%s muss von Länge 1 sein oder ein Vektor mit\n"
-"              einer vielfachen Länge der Gruppenlänge (%d)"
 
-msgid ","
-msgstr ","
+#. R/interaction.R: warning("'f.value' not supported; ignoring")
+#: R/interaction.R:0
+msgid "'f.value' not supported; ignoring"
+msgstr "'f.value' nicht unterstützt. Wird ignoriert."
 
-msgid "explicit 'data' specification ignored"
-msgstr "ausdrückliche 'data'-Spezifikation ignoriert"
+#. R/dataframe-methods.R: stop("'formula' must be a formula object")
+#. R/dataframe-methods.R: stop("'formula' must be a formula object")
+#: R/dataframe-methods.R:0
+msgid "'formula' must be a formula object"
+msgstr "'formula' muss ein Formelobjekt sein"
 
-msgid "mismatch in number of packets"
-msgstr "fehlende Übereinstimmung in Anzahl der Pakete"
-
-msgid "'type' has unsupported values"
-msgstr "'type' enthält nicht unterstützte Werte"
-
-msgid "Inappropriate arguments"
-msgstr "Unangemessene Argumente"
-
-msgid "shingles can not be concatenated"
-msgstr "Kacheln können nicht zusammengefügt werden"
-
-msgid "model must be a formula object"
-msgstr "Modell muss ein Formelobjekt sein"
-
-msgid "'multiple=TRUE' ignored ('groups' non-null with 'outer=FALSE')"
-msgstr "'multiple=TRUE' ignoriert ('groups' nicht Null mit 'outer=FALSE')"
-
-msgid "invalid dimension '%s'"
-msgstr "ungültige Dimension '%s'"
-
-msgid "invalid model"
-msgstr "ungültiges Modell"
-
-msgid "newFactor cannot be NULL; you have found a bug!"
-msgstr "newFactor kann nicht NULL sein. Sie haben einen Fehler gefunden!"
-
-msgid ""
-"newFactor != NULL && groups == NULL does not hold; you have found a bug!"
-msgstr ""
-"newFactor != NULL && groups == NULL gilt nicht. Sie haben einen Fehler "
-"gefunden!"
-
-msgid "Length check mismatch; you have found a bug!"
-msgstr "Längenprüfung stimmt nicht überein. Sie haben einen Fehler gefunden!"
-
-msgid "Non matching lengths"
-msgstr "Nicht übereinstimmende Längen"
-
+#. R/common.R: stop("'length' and 'prop' cannot both be specified")
+#: R/common.R:0
 msgid "'length' and 'prop' cannot both be specified"
 msgstr "'length' und 'prop' können nicht beide angegeben werden"
 
@@ -131,190 +94,10 @@ msgstr "'length' und 'prop' können nicht beide angegeben werden"
 msgid "'length' must be positive"
 msgstr "'length' muss positiv sein"
 
-msgid "improper length of 'lim'"
-msgstr "ungeeignete Länge von 'lim'"
-
-msgid "Invalid value of perm.cond"
-msgstr "Ungültiger Wert von perm.cond"
-
-msgid "Invalid value of index.cond"
-msgstr "Ungültiger Wert von index.cond"
-
-msgid "skip cannot be all TRUE"
-msgstr "'skip' kann nicht nur TRUE sein"
-
-msgid "layout must have at least 2 elements"
-msgstr "Layout muss mindestens 2 Elemente haben"
-
-msgid "Inadmissible value of layout."
-msgstr "unzulässiger Wert für layout"
-
-msgid "invalid value for layout"
-msgstr "ungültiger Wert für Layout"
-
-msgid "More pages in layout than seem to be necessary."
-msgstr "Mehr Seiten im Layout als anscheinend nötig"
-
-msgid "a formula must be specified for the 'data.frame' method"
-msgstr ""
-
-msgid "'formula' must be a formula object"
-msgstr "'formula' muss ein Formelobjekt sein"
-
-msgid "Density"
-msgstr "Dichte"
-
-msgid "Can't have log Y-scale"
-msgstr "Y-Achse kann keine logarithmische Skala haben"
-
-msgid "type='%s' can be misleading in this context"
-msgstr "type='%s' kann in diesem Zusammenhang irreführend sein"
-
-msgid "problem with 'hist' computations"
-msgstr "Problem mit 'hist'-Berechnungen"
-
-msgid "Count"
-msgstr "Anzahl"
-
-msgid "Percent of Total"
-msgstr "Prozent der Gesamtheit"
-
-msgid "no observations within"
-msgstr "keine Beobachtungen in"
-
-msgid "points"
-msgstr "Punkte"
-
-msgid "nearest observation already identified"
-msgstr "nächstliegende Beobachtung bereits erkannt"
-
-msgid "column must be specified"
-msgstr "Spalte muss angegeben werden"
-
-msgid "row must be specified"
-msgstr "Zeile muss angegeben werden"
-
-msgid "panel position unspecified or invalid"
-msgstr "Position des Bedienfeldes nicht angegeben oder ungültig"
-
-msgid ""
-"'trellis.switchFocus' cannot be used to switch to a different 'prefix'.  Use "
-"'trellis.focus' first"
-msgstr ""
-"'trellis.switchFocus' kann nicht benutzt werden, um auf einen anderen "
-"'prefix' zu schalten. Zuerst 'trellis.focus' benutzen"
-
-msgid "Plot object was not saved, cannot retrieve panel data"
-msgstr ""
-"Plot-Objekt wurde nicht gespeichert. Panel Daten können nicht abgefragt "
-"werden."
-
-msgid "Plot spans multiple pages, only last page can be updated"
-msgstr ""
-"Plot umfasst mehrere Seiten. Nur die letzte Seite kann aktualisiert werden"
-
-msgid "You have to first select a panel using trellis.focus()"
-msgstr "Sie müssen zuerst ein Panel mittels trellis.focus() auswählen."
-
-msgid "Selecting panel at position (%g, %g)"
-msgstr "Bedienfeld an Position (%g, %g) wird ausgewählt."
-
-msgid "No panels available"
-msgstr "Keine Bedienfelder verfügbar"
-
-msgid "Click on panel to focus"
-msgstr "Zum Fokussieren auf das Bedienfeld klicken."
-
-msgid "'f.value' not supported; ignoring"
-msgstr "'f.value' nicht unterstützt. Wird ignoriert."
-
-msgid "Click to choose one point to highlight"
-msgstr "Klicken Sie einen Punkt, um ihn hervorzuheben"
-
-msgid "no points within"
-msgstr "keine Punkte innerhalb"
-
-msgid "points of click"
-msgstr "Anklickpunkte"
-
-msgid "component '%s' duplicated in key and legend"
-msgstr "Komponente '%s' doppelt in Schlüssel und Beschriftung"
-
-msgid "key must be a list"
-msgstr "Schlüssel muss eine Liste sein"
-
-msgid "first component of text must be vector of labels"
-msgstr "erste Komponente des Textes muss ein Vektor aus Bezeichnungen sein"
-
-msgid ""
-"Invalid key, need at least one component named lines, text, rect or points"
-msgstr ""
-"Ungültiger Schlüssel. Es wird mindestens eine Komponente mit Namen 'lines', "
-"'text', 'rect' oder 'points' benötigt."
-
-msgid "not enough rows for columns"
-msgstr "nicht genug Zeilen für Spalten"
-
-msgid "Sorry, align=FALSE is not supported"
-msgstr "Entschuldigung. align=FALSE wird nicht unterstützt."
-
-msgid "'at' values are not equispaced; output may be wrong"
-msgstr "'at' Werte sind nicht äquidistant; Ausgabe kann falsch sein"
-
-msgid "key specifies 'labels$labels' but not 'labels$at'"
-msgstr "Der Key spezifiziert 'labels$labels' aber nicht 'labels$at'"
-
-msgid "lengths of key's 'labels$labels' and 'labels$at' differ"
-msgstr ""
-"Die Längen von 'labels$labels' und 'labels$at' des Schlüssels unterscheiden "
-"sich"
-
-msgid "malformed colorkey"
-msgstr "missgestalteter Farbschlüssel"
-
-msgid "Invalid value of 'tri.upper/tri.lower' ignored."
-msgstr "Unzulässiger Wert für 'tri.upper/tri.lower' ignoriert."
-
-msgid "Invalid 'shrink' parameter ignored"
-msgstr "Falscher 'shrink'-Parameter ignoriert"
-
-msgid "Invalid label.style"
-msgstr "Ungültiger label.style"
-
-msgid "device support for raster images unknown, ignoring 'raster=TRUE'"
-msgstr ""
-"Geräteunterstützung für Rastergrafiken unbekannt, ignoriere 'raster=TRUE'"
-
-msgid "device has no raster support, ignoring 'raster=TRUE'"
-msgstr "Gerät unterstützt keine Rastergrafik, ignoriere 'raster=TRUE'"
-
-msgid "device does not support raster images with NA, ignoring 'raster=TRUE'"
-msgstr "Gerät unterstützt keine Rastergrafiken mit NA, ignoriere 'raster=TRUE'"
-
-msgid "'x' values are not equispaced; output may be wrong"
-msgstr "'x' Werte sind nicht äquidistant; Ausgabe kann falsch sein"
-
-msgid "'y' values are not equispaced; output may be wrong"
-msgstr "'y' Werte sind nicht äquidistant; Ausgabe kann falsch sein"
-
-msgid "x must be (coercible to be) a factor"
-msgstr "x muss (zwingend) ein Faktor sein"
-
-msgid "error"
-msgstr "Fehler"
-
-msgid "Invalid value of 'pos' ignored."
-msgstr "Unzulässiger Wert für 'pos' ignoriert."
-
-msgid "(loaded the KernSmooth namespace)"
-msgstr "(lud den KernSmooth-Namensraum)"
-
-msgid ""
-"panel.smoothScatter() requires the KernSmooth package, but unable to load "
-"KernSmooth namespace"
-msgstr ""
-"panel.smoothScatter() benötigt das KernSmooth-Paket, aber der KernSmooth-"
-"Namensraum kann nicht geladen werden."
+#. R/common.R: warning("'multiple=TRUE' ignored ('groups' non-null with 'outer=FALSE')")
+#: R/common.R:0
+msgid "'multiple=TRUE' ignored ('groups' non-null with 'outer=FALSE')"
+msgstr "'multiple=TRUE' ignoriert ('groups' nicht Null mit 'outer=FALSE')"
 
 #. R/panel.smoothscatter.R: stop("'nbin' must be numeric of length 1 or 2")
 #: R/panel.smoothscatter.R:0
@@ -722,7 +505,7 @@ msgstr "ungültiges Modell"
 #. R/legend.R: stop("key specifies 'labels$labels' but not 'labels$at'", call. = FALSE)
 #: R/legend.R:0
 msgid "key specifies 'labels$labels' but not 'labels$at'"
-msgstr ""
+msgstr "Der Key spezifiziert 'labels$labels' aber nicht 'labels$at'"
 
 #. R/common.R: stop("layout must have at least 2 elements")
 #: R/common.R:0
@@ -737,7 +520,7 @@ msgstr ""
 #. R/legend.R: stop("lengths of key's 'labels$labels' and 'labels$at' differ",     call. = FALSE)
 #: R/legend.R:0
 msgid "lengths of key's 'labels$labels' and 'labels$at' differ"
-msgstr ""
+msgstr "Die Längen von 'labels$labels' und 'labels$at' des Schlüssels unterscheiden sich"
 
 #. R/scales.R: stop("limits cannot be a list when relation = same")
 #: R/scales.R:0
@@ -871,7 +654,7 @@ msgstr "einige Bestandteile der angegebenen 'dimnames' haben falsche Längen"
 #. R/axis.R: warning("specifying 'labels' but not 'at' may lead to unexpected results")
 #: R/axis.R:0
 msgid "specifying 'labels' but not 'at' may lead to unexpected results"
-msgstr ""
+msgstr "Spezifizieren von 'labels', aber nicht von 'at' kann zu unerwarteten Ergebnissen führen"
 
 #. R/summary.trellis.R: stop("supplied 'dimnames' have wrong length")
 #: R/summary.trellis.R:0
@@ -916,6 +699,43 @@ msgstr "x muss eine Matrix mit 2 Spalten sein"
 msgid "y must have exactly 2 levels"
 msgstr "y muss genau 2 Stufen haben"
 
+#~ msgid "length of '%s' must be  1 or multiple of group length (%d)"
+#~ msgstr "Länge von '%s' muss 1 sein oder ein Vielfaches der Gruppenlänge (%d)"
+
+#~ msgid ""
+#~ "%s must be length 1 or a vector of \n"
+#~ "             length multiple of group length (%d)"
+#~ msgstr ""
+#~ "%s muss von Länge 1 sein oder ein Vektor mit\n"
+#~ "              einer vielfachen Länge der Gruppenlänge (%d)"
+
+#~ msgid ","
+#~ msgstr ","
+
+#~ msgid "Invalid value of perm.cond"
+#~ msgstr "Ungültiger Wert von perm.cond"
+
+#~ msgid "invalid value for layout"
+#~ msgstr "ungültiger Wert für Layout"
+
+#~ msgid "no observations within"
+#~ msgstr "keine Beobachtungen in"
+
+#~ msgid "points"
+#~ msgstr "Punkte"
+
+#~ msgid "no points within"
+#~ msgstr "keine Punkte innerhalb"
+
+#~ msgid "points of click"
+#~ msgstr "Anklickpunkte"
+
+#~ msgid "key must be a list"
+#~ msgstr "Schlüssel muss eine Liste sein"
+
+#~ msgid "Invalid label.style"
+#~ msgstr "Ungültiger label.style"
+
 #~ msgid "'lattice.options' must be a list"
 #~ msgstr "'lattice.options' muss eine Liste sein"
 
@@ -928,32 +748,14 @@ msgstr "y muss genau 2 Stufen haben"
 #~ msgid "'plot.args' must be a list"
 #~ msgstr "'plot.args' muss eine Liste sein"
 
-#~ msgid "Invalid label.style"
-#~ msgstr "Ungültiger label.style"
-
 #~ msgid "Invalid value of 'aspect'"
 #~ msgstr "Ungültiger Wert von 'aspect'"
 
 #~ msgid "Invalid value of 'perm.cond'"
 #~ msgstr "Ungültiger Wert von 'perm.cond'"
 
-#~ msgid "Invalid value of perm.cond"
-#~ msgstr "Ungültiger Wert von perm.cond"
-
-#~ msgid "invalid value for layout"
-#~ msgstr "ungültiger Wert für Layout"
-
 #~ msgid "Invalid value of 'log'"
 #~ msgstr "Ungültiger Wert von 'log'"
-
-#~ msgid ","
-#~ msgstr ","
-
-#~ msgid "points"
-#~ msgstr "Punkte"
-
-#~ msgid "points of click"
-#~ msgstr "Anklickpunkte"
 
 #~ msgid "missing values and NaN's not allowed if 'na.rm' is FALSE"
 #~ msgstr "fehlende Werte und NaNs nicht erlaubt, wenn 'na.rm' FALSE ist"

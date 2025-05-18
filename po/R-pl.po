@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lattice 0.20-27\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2025-03-31 17:47\n"
+"POT-Creation-Date: 2025-05-18 13:37\n"
 "PO-Revision-Date: 2014-03-25 21:26+0100\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
@@ -297,6 +297,274 @@ msgstr ""
 msgid "Explicitly specified limits ignored"
 msgstr "Jawnie określone granice zostały zignorowane"
 
+#. R/rfs.R: gettext("Fitted Values minus Mean")
+#: R/rfs.R:0
+msgid "Fitted Values minus Mean"
+msgstr "Dopasowanie wartości minus średnia"
+
+# lattice/R/common.R: 741
+# stop("Inadmissible value of layout.")
+#. R/common.R: stop("Inadmissible value of layout.")
+#: R/common.R:0
+msgid "Inadmissible value of layout."
+msgstr "Niedopuszczalna wartość 'layout'."
+
+#. R/common.R: stop("Inappropriate arguments")
+#: R/common.R:0
+msgid "Inappropriate arguments"
+msgstr "Niepoprawne argumenty"
+
+# lattice/R/common.R: 701
+# stop("Invalid value of index.cond")
+#. R/update.trellis.R: warning("Inappropriate value of 'as.table'")
+#: R/update.trellis.R:0
+msgid "Inappropriate value of 'as.table'"
+msgstr "Niepoprawna wartość 'as.table'"
+
+# lattice/R/shingle.R: 127
+# gettext("no intervals", domain = "R-lattice")
+#. R/shingle.R: gettext("\nIntervals:\n")
+#: R/shingle.R:0
+msgid "Intervals:"
+msgstr "Interwały:"
+
+#. R/levelplot.R: warning("Invalid 'shrink' parameter ignored")
+#: R/levelplot.R:0
+msgid "Invalid 'shrink' parameter ignored"
+msgstr "Niepoprawny parametr 'shrink' został zignorowany"
+
+#. R/settings.R: warning("Invalid 'theme' specified")
+#. R/settings.R: warning("Invalid 'theme' specified")
+#: R/settings.R:0
+msgid "Invalid 'theme' specified"
+msgstr "określono niepoprawne 'theme'"
+
+# lattice/R/common.R: 334
+# stop("invalid model")
+#. R/update.trellis.R: stop("Invalid indices")
+#: R/update.trellis.R:0
+msgid "Invalid indices"
+msgstr "niepoprawne indeksy"
+
+#. R/legend.R: stop("Invalid key, need at least one component named lines, text, rect or points")
+#: R/legend.R:0
+msgid "Invalid key, need at least one component named lines, text, rect or points"
+msgstr "Niepoprawny klucz, potrzeba co najmniej jeden komponent z nazwany 'lines', 'text', 'rect' lub 'points'"
+
+#. R/scales.R: gettextf("Invalid or ambiguous component names: %s", paste(names(x)[which(is.na(pid))],     collapse = ", "))
+#: R/scales.R:0
+msgid "Invalid or ambiguous component names: %s"
+msgstr "Niepoprawne lub niejednoznacznie nazwy komponentów: %s"
+
+# lattice/R/miscellaneous.R: 465
+# warning("Invalid value of 'pos' ignored.")
+#. R/miscellaneous.R: warning("Invalid value of 'pos' ignored.")
+#: R/miscellaneous.R:0
+msgid "Invalid value of 'pos' ignored."
+msgstr "Niepoprawna wartość 'pos' została zignorowana."
+
+# lattice/R/common.R: 701
+# stop("Invalid value of index.cond")
+#. R/legend.R: warning("Invalid value of 'tri.upper/tri.lower' ignored.")
+#: R/legend.R:0
+msgid "Invalid value of 'tri.upper/tri.lower' ignored."
+msgstr "Niepoprawna wartość 'tri.upper/tri.lower' została zignorowana."
+
+# lattice/R/common.R: 701
+# stop("Invalid value of index.cond")
+#. R/common.R: stop("Invalid value of index.cond")
+#: R/common.R:0
+msgid "Invalid value of index.cond"
+msgstr "Niepoprawna wartość 'index.cond'"
+
+# lattice/R/common.R: 401
+# stop("Length check mismatch; you have found a bug!")
+#. R/common.R: stop("Length check mismatch; you have found a bug!")
+#: R/common.R:0
+msgid "Length check mismatch; you have found a bug!"
+msgstr "Sprawdzenie długości nie zgadza się; znalazłeś błąd!"
+
+# lattice/R/common.R: 756
+# warning("More pages in layout than seem to be necessary.")
+#. R/common.R: warning("More pages in layout than seem to be necessary.")
+#: R/common.R:0
+msgid "More pages in layout than seem to be necessary."
+msgstr "Więcej stron na ekranie niż wydaje się być konieczne."
+
+#. R/scales.R: stop("Multiple matches to component name")
+#: R/scales.R:0
+msgid "Multiple matches to component name"
+msgstr "Wielokrotne dopasowania do nazwy komponentu"
+
+#. R/interaction.R: warning("No panels available")
+#: R/interaction.R:0
+msgid "No panels available"
+msgstr "Brak dostępnych paneli"
+
+# lattice/R/common.R: 421
+# stop("Non matching lengths")
+# lattice/R/common.R: 445
+# stop("Non matching lengths")
+#. R/common.R: stop("Non matching lengths")
+#. R/common.R: stop("Non matching lengths")
+#: R/common.R:0
+msgid "Non matching lengths"
+msgstr "Niezgodne długości"
+
+#. R/update.trellis.R: message("Note: 'auto.key' ignored since legend already present.\nUse 'update(..., legend = NULL)' to remove existing legend(s)")
+#: R/update.trellis.R:0
+msgid ""
+"Note: 'auto.key' ignored since legend already present.\n"
+"Use 'update(..., legend = NULL)' to remove existing legend(s)"
+msgstr ""
+"Uwaga: 'auto.key' zostało zignorowane ponieważ legenda jest już obecna.\n"
+"Użyj 'update(..., legend = NULL)' aby usunąć istniejące legendy"
+
+#. R/settings.R: warning("Note: The default device has been opened to honour attempt to modify trellis settings")
+#: R/settings.R:0
+msgid "Note: The default device has been opened to honour attempt to modify trellis settings"
+msgstr "Uwaga: Domyślne urządzenie zostało otwarte aby umożliwić próbę modyfikacji ustawień 'trellis'"
+
+# lattice/R/interaction.R: 83
+# warning(gettextf("no observations within %d points", threshold))
+# lattice/R/interaction.R: 149
+# warning(gettextf("no observations within %d points", threshold))
+#. R/summary.trellis.R: gettext("\nNumber of observations:\n")
+#: R/summary.trellis.R:0
+msgid "Number of observations:"
+msgstr "Liczba obserwacji:"
+
+#. R/shingle.R: gettext("\nOverlap between adjacent intervals:\n")
+#: R/shingle.R:0
+msgid "Overlap between adjacent intervals:"
+msgstr "Pokrywanie się pomiędzy sąsiadującymi interwałami:"
+
+#. R/shingle.R: gettext("Panel")
+#: R/shingle.R:0
+msgid "Panel"
+msgstr "Panel"
+
+#. R/parallel.R: gettext("Parallel Coordinate Plot")
+#: R/parallel.R:0
+msgid "Parallel Coordinate Plot"
+msgstr "Wykres równoległych współrzędnych"
+
+# lattice/R/histogram.R: 338
+# gettext("Percent of Total")
+#. R/histogram.R: gettext("Percent of Total")
+#: R/histogram.R:0
+msgid "Percent of Total"
+msgstr "Procent całości"
+
+#. R/interaction.R: stop("Plot object was not saved, cannot retrieve panel data")
+#: R/interaction.R:0
+msgid "Plot object was not saved, cannot retrieve panel data"
+msgstr "Wykres nie został zapisany, nie można przywrócić danych panelu"
+
+#. R/interaction.R: warning("Plot spans multiple pages, only last page can be updated")
+#: R/interaction.R:0
+msgid "Plot spans multiple pages, only last page can be updated"
+msgstr "Wykres rozciąga się na wiele stron, tylko ostatnia strona może zostać zaktualizowana"
+
+#. R/shingle.R: gettext("Range")
+#: R/shingle.R:0
+msgid "Range"
+msgstr "Zakres"
+
+#. R/update.trellis.R: warning("Requested 'trellis' object was not saved")
+#: R/update.trellis.R:0
+msgid "Requested 'trellis' object was not saved"
+msgstr "Zażądany obiekt 'trellis' nie został zapisany"
+
+#. R/rfs.R: gettext("Residuals")
+#: R/rfs.R:0
+msgid "Residuals"
+msgstr "Reszty"
+
+#. R/splom.R: gettext("Scatter Plot Matrix")
+#. R/splom.R: gettext("Scatter Plot Matrix")
+#: R/splom.R:0
+msgid "Scatter Plot Matrix"
+msgstr "Macierzowy wykres punktowy"
+
+#. R/interaction.R: sprintf("Selecting panel at position (%g, %g)", focusRow, focusCol)
+#: R/interaction.R:0
+msgid "Selecting panel at position (%g, %g)"
+msgstr "Wybieranie panelu na pozycji (%g, %g)"
+
+#. R/legend.R: stop("Sorry, align=FALSE is not supported")
+#: R/legend.R:0
+msgid "Sorry, align=FALSE is not supported"
+msgstr "Przykro mi, 'allign = FALSE' nie jest wpierane"
+
+# lattice/R/common.R: 701
+# stop("Invalid value of index.cond")
+#. R/update.trellis.R: gettextf("Unrecognized value of 'aspect': '%s'", as.character(aspect))
+#: R/update.trellis.R:0
+msgid "Unrecognized value of 'aspect': '%s'"
+msgstr "nierozpoznana wartość 'aspect': '%s'"
+
+#. R/interaction.R: stop("You have to first select a panel using trellis.focus()")
+#: R/interaction.R:0
+msgid "You have to first select a panel using trellis.focus()"
+msgstr "Musisz najpierw wybrać panel używając 'trellis.focus()'"
+
+#. R/dataframe-methods.R: stop("a formula must be specified for the 'data.frame' method")
+#: R/dataframe-methods.R:0
+msgid "a formula must be specified for the 'data.frame' method"
+msgstr "formuła musi być określona dla metody 'data.frame'"
+
+# lattice/R/common.R: 701
+# stop("Invalid value of index.cond")
+#. R/shingle.R: stop("bad value of 'intervals'")
+#: R/shingle.R:0
+msgid "bad value of 'intervals'"
+msgstr "błędna wartość 'intervals'"
+
+# lattice/R/qqmath.R: 372
+# warning("Can't have log X-scale")
+#. R/parallel.R: warning("cannot have log y-scale")
+#: R/parallel.R:0
+msgid "cannot have log y-scale"
+msgstr "nie można mieć logarytmicznej skali Y"
+
+# lattice/R/interaction.R: 395
+# stop("row must be specified")
+#. R/interaction.R: stop("column must be specified")
+#: R/interaction.R:0
+msgid "column must be specified"
+msgstr "kolumna musi zostać określona"
+
+#. R/legend.R: gettextf("component '%s' duplicated in key and legend", space)
+#: R/legend.R:0
+msgid "component '%s' duplicated in key and legend"
+msgstr "komponent '%s' jest powtórzony w kluczu oraz legendzie"
+
+#. R/levelplot.R: warning("device does not support raster images with NA, ignoring 'raster=TRUE'")
+#: R/levelplot.R:0
+msgid "device does not support raster images with NA, ignoring 'raster=TRUE'"
+msgstr "urządzenie nie wspiera obrazów rastrowych z wartością NA, ignorowanie 'raster=TRUE'"
+
+#. R/levelplot.R: warning("device has no raster support, ignoring 'raster=TRUE'")
+#: R/levelplot.R:0
+msgid "device has no raster support, ignoring 'raster=TRUE'"
+msgstr "urządzenie nie ma wsparcia rastrowego, ignorowanie 'raster=TRUE'"
+
+#. R/levelplot.R: warning("device support for raster images unknown, ignoring 'raster=TRUE'")
+#: R/levelplot.R:0
+msgid "device support for raster images unknown, ignoring 'raster=TRUE'"
+msgstr "wspomaganie sprzętowe dla obrazów rastrowych nie jest znane, ignorowanie 'raster=TRUE'"
+
+#. R/tmd.R: gettext("difference")
+#: R/tmd.R:0
+msgid "difference"
+msgstr "różnica"
+
+#. R/miscellaneous.R: stop("error")
+#: R/miscellaneous.R:0
+msgid "error"
+msgstr "błąd"
+
 # lattice/R/cloud.R: 1427
 # warning("explicit 'data' specification ignored")
 # lattice/R/cloud.R: 1488
@@ -499,149 +767,6 @@ msgstr "niezgodność w liczbie pakietów"
 msgid "model must be a formula object"
 msgstr "model musi być obiektem formuły"
 
-# lattice/R/common.R: 164
-# warning("'multiple=TRUE' ignored ('groups' non-null with 'outer=FALSE')")
-msgid "'multiple=TRUE' ignored ('groups' non-null with 'outer=FALSE')"
-msgstr "zignorowano 'multiple=TRUE' ('groups' są niepuste z 'outer=FALSE')"
-
-# lattice/R/common.R: 176
-# stop(gettextf("invalid dimension '%s'", as.character(dimension)))
-msgid "invalid dimension '%s'"
-msgstr "niepoprawny wymiar '%s'"
-
-# lattice/R/common.R: 334
-# stop("invalid model")
-msgid "invalid model"
-msgstr "niepoprawny model"
-
-# lattice/R/common.R: 376
-# stop("newFactor cannot be NULL; you have found a bug!")
-msgid "newFactor cannot be NULL; you have found a bug!"
-msgstr "'newFactor' nie może mieć wartości NULL; znalazłeś błąd!"
-
-# lattice/R/common.R: 390
-# stop("newFactor != NULL && groups == NULL does not hold; you have found a bug!")
-msgid ""
-"newFactor != NULL && groups == NULL does not hold; you have found a bug!"
-msgstr "newFactor != NULL && groups == NULL nie trzyma się; znalazłeś błąd!"
-
-# lattice/R/common.R: 401
-# stop("Length check mismatch; you have found a bug!")
-msgid "Length check mismatch; you have found a bug!"
-msgstr "Sprawdzenie długości nie zgadza się; znalazłeś błąd!"
-
-# lattice/R/common.R: 421
-# stop("Non matching lengths")
-# lattice/R/common.R: 445
-# stop("Non matching lengths")
-msgid "Non matching lengths"
-msgstr "Niezgodne długości"
-
-# lattice/R/common.R: 498
-# stop("'length' and 'prop' cannot both be specified")
-msgid "'length' and 'prop' cannot both be specified"
-msgstr "'length' oraz 'prop' nie mogą być jednocześnie określone"
-
-# lattice/R/common.R: 499
-# stop("'length' must be positive")
-msgid "'length' must be positive"
-msgstr "argument 'length' musi być dodatni"
-
-# lattice/R/common.R: 514
-# stop("improper length of 'lim'")
-msgid "improper length of 'lim'"
-msgstr "niepoprawna długość argumentu 'lim'"
-
-# lattice/R/common.R: 701
-# stop("Invalid value of index.cond")
-msgid "Invalid value of perm.cond"
-msgstr "Niepoprawna wartość 'perm.cond'"
-
-# lattice/R/common.R: 701
-# stop("Invalid value of index.cond")
-msgid "Invalid value of index.cond"
-msgstr "Niepoprawna wartość 'index.cond'"
-
-# lattice/R/common.R: 719
-# stop("skip cannot be all TRUE")
-msgid "skip cannot be all TRUE"
-msgstr "'skip' nie może całe być TRUE"
-
-# lattice/R/common.R: 736
-# stop("layout must have at least 2 elements")
-msgid "layout must have at least 2 elements"
-msgstr "'layout' musi mieć przynajmniej 2 elementy"
-
-# lattice/R/common.R: 741
-# stop("Inadmissible value of layout.")
-msgid "Inadmissible value of layout."
-msgstr "Niedopuszczalna wartość 'layout'."
-
-# lattice/R/common.R: 741
-# stop("Inadmissible value of layout.")
-msgid "invalid value for layout"
-msgstr "niepoprawna wartość 'layout'"
-
-# lattice/R/common.R: 756
-# warning("More pages in layout than seem to be necessary.")
-msgid "More pages in layout than seem to be necessary."
-msgstr "Więcej stron na ekranie niż wydaje się być konieczne."
-
-msgid "a formula must be specified for the 'data.frame' method"
-msgstr ""
-
-# lattice/R/common.R: 159
-# stop("model must be a formula object")
-#, fuzzy
-msgid "'formula' must be a formula object"
-msgstr "model musi być obiektem formuły"
-
-# lattice/R/densityplot.R: 288
-# gettext("Density")
-# lattice/R/densityplot.R: 306
-# gettext("Density")
-# lattice/R/histogram.R: 339
-# gettext("Density")
-msgid "Density"
-msgstr "Gęstość"
-
-# lattice/R/densityplot.R: 349
-# warning("Can't have log Y-scale")
-# lattice/R/histogram.R: 304
-# warning("Can't have log Y-scale")
-msgid "Can't have log Y-scale"
-msgstr "Nie można mieć logarytmicznej skali Y"
-
-# lattice/R/histogram.R: 330
-# warning(gettextf("type='%s' can be misleading in this context", type))
-msgid "type='%s' can be misleading in this context"
-msgstr "'type = %s' może być mylące w tym kontekście"
-
-# lattice/R/histogram.R: 134
-# warning("problem with 'hist' computations")
-msgid "problem with 'hist' computations"
-msgstr "problem z obliczeniami 'hist'"
-
-# lattice/R/histogram.R: 337
-# gettext("Count")
-msgid "Count"
-msgstr "Zliczenia"
-
-# lattice/R/histogram.R: 338
-# gettext("Percent of Total")
-msgid "Percent of Total"
-msgstr "Procent całości"
-
-# lattice/R/interaction.R: 83
-# warning(gettextf("no observations within %d points", threshold))
-# lattice/R/interaction.R: 149
-# warning(gettextf("no observations within %d points", threshold))
-msgid "no observations within"
-msgstr "brak obserwacji w zasięgu"
-
-msgid "points"
-msgstr "punktów"
-
 # lattice/R/interaction.R: 96
 # warning("nearest observation already identified")
 # lattice/R/interaction.R: 161
@@ -837,6 +962,16 @@ msgstr "argument 'x' musi być macierzą z 2 kolumnami"
 msgid "y must have exactly 2 levels"
 msgstr "'y' musi mieć dokładnie 2 poziomy"
 
+# lattice/R/common.R: 701
+# stop("Invalid value of index.cond")
+#~ msgid "Invalid value of perm.cond"
+#~ msgstr "Niepoprawna wartość 'perm.cond'"
+
+# lattice/R/common.R: 741
+# stop("Inadmissible value of layout.")
+#~ msgid "invalid value for layout"
+#~ msgstr "niepoprawna wartość 'layout'"
+
 # lattice/R/legend.R: 139
 # stop("key must be a list")
 # lattice/R/legend.R: 758
@@ -867,31 +1002,6 @@ msgstr "'y' musi mieć dokładnie 2 poziomy"
 
 #~ msgid "Invalid label.style"
 #~ msgstr "niepoprawna wartość 'label.style'"
-
-# lattice/R/common.R: 701
-# stop("Invalid value of index.cond")
-#~ msgid "Invalid value of 'aspect'"
-#~ msgstr "niepoprawna wartość 'aspect'"
-
-# lattice/R/common.R: 701
-# stop("Invalid value of index.cond")
-#~ msgid "Invalid value of 'perm.cond'"
-#~ msgstr "Niepoprawna wartość 'perm.cond'"
-
-# lattice/R/common.R: 701
-# stop("Invalid value of index.cond")
-#~ msgid "Invalid value of perm.cond"
-#~ msgstr "Niepoprawna wartość 'perm.cond'"
-
-# lattice/R/common.R: 741
-# stop("Inadmissible value of layout.")
-#~ msgid "invalid value for layout"
-#~ msgstr "niepoprawna wartość 'layout'"
-
-# lattice/R/miscellaneous.R: 465
-# warning("Invalid value of 'pos' ignored.")
-#~ msgid "Invalid value of 'log'"
-#~ msgstr "niepoprawna wartość 'log'"
 
 #~ msgid ","
 #~ msgstr ","
