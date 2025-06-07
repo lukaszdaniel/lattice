@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 3.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2025-05-18 13:37\n"
+"POT-Creation-Date: 2025-06-05 16:21\n"
 "PO-Revision-Date: 2015-02-09 00:06-0600\n"
 "Last-Translator:Chel Hee Lee  <chl948@mail.usask.ca>\n"
 "Language-Team: Chel Hee Lee  <chl948@mail.usask.ca>\n"
@@ -29,7 +29,6 @@ msgstr ""
 msgid "%s must be length 1 or a vector of length multiple of group length (%d)"
 msgstr ""
 
-#. R/legend.R: gettextf("'%s' must be a list", "key")
 #. R/legend.R: gettextf("'%s' must be a list", "key")
 #. R/update.trellis.R: gettextf("'%s' must be a list", "par.strip.text")
 #. R/update.trellis.R: gettextf("'%s' must be a list", "par.settings")
@@ -86,7 +85,6 @@ msgid "'f.value' not supported; ignoring"
 msgstr "'f.value'은 사용되지 않습니다."
 
 #. R/dataframe-methods.R: stop("'formula' must be a formula object")
-#. R/dataframe-methods.R: stop("'formula' must be a formula object")
 #: R/dataframe-methods.R:0
 #, fuzzy
 msgid "'formula' must be a formula object"
@@ -117,7 +115,6 @@ msgstr "'nbin'은 반드시 길이가 1 또는 2인 수치형이어야 합니다
 msgid "'nrpoints' should be numeric scalar with value >= 0."
 msgstr "'nrpoints'는 반드시 0 이상의 값을 가지는 수치형 스칼라(scalar)이어야 합니다."
 
-#. R/bwplot.R: warning("'origin' forced to 0 for stacked bars")
 #. R/bwplot.R: warning("'origin' forced to 0 for stacked bars")
 #: R/bwplot.R:0
 msgid "'origin' forced to 0 for stacked bars"
@@ -201,7 +198,6 @@ msgid "Data:"
 msgstr "데이터(data):"
 
 #. R/densityplot.R: gettext("Density")
-#. R/densityplot.R: gettext("Density")
 #. R/histogram.R: gettext("Density")
 #: R/densityplot.R:0 R/histogram.R:0
 msgid "Density"
@@ -251,7 +247,6 @@ msgstr "구간(intervals):"
 msgid "Invalid 'shrink' parameter ignored"
 msgstr "'shrink'의 값이 올바르지 않아 무효처리 되었습니다."
 
-#. R/settings.R: warning("Invalid 'theme' specified")
 #. R/settings.R: warning("Invalid 'theme' specified")
 #: R/settings.R:0
 msgid "Invalid 'theme' specified"
@@ -307,7 +302,6 @@ msgstr ""
 msgid "No panels available"
 msgstr "이용가능한 패널이 없습니다."
 
-#. R/common.R: stop("Non matching lengths")
 #. R/common.R: stop("Non matching lengths")
 #: R/common.R:0
 msgid "Non matching lengths"
@@ -377,7 +371,6 @@ msgstr "요청된 'trellis' 객체가 저장되지 않았습니다."
 msgid "Residuals"
 msgstr "잔차(residuals)"
 
-#. R/splom.R: gettext("Scatter Plot Matrix")
 #. R/splom.R: gettext("Scatter Plot Matrix")
 #: R/splom.R:0
 msgid "Scatter Plot Matrix"
@@ -454,20 +447,9 @@ msgid "error"
 msgstr "에러"
 
 #. R/bwplot.R: warning("explicit 'data' specification ignored")
-#. R/bwplot.R: warning("explicit 'data' specification ignored")
-#. R/bwplot.R: warning("explicit 'data' specification ignored")
-#. R/bwplot.R: warning("explicit 'data' specification ignored")
-#. R/bwplot.R: warning("explicit 'data' specification ignored")
-#. R/bwplot.R: warning("explicit 'data' specification ignored")
-#. R/cloud.R: warning("explicit 'data' specification ignored")
 #. R/cloud.R: warning("explicit 'data' specification ignored")
 #. R/densityplot.R: warning("explicit 'data' specification ignored")
 #. R/histogram.R: warning("explicit 'data' specification ignored")
-#. R/levelplot.R: warning("explicit 'data' specification ignored")
-#. R/levelplot.R: warning("explicit 'data' specification ignored")
-#. R/levelplot.R: warning("explicit 'data' specification ignored")
-#. R/levelplot.R: warning("explicit 'data' specification ignored")
-#. R/levelplot.R: warning("explicit 'data' specification ignored")
 #. R/levelplot.R: warning("explicit 'data' specification ignored")
 #. R/parallel.R: warning("explicit 'data' specification ignored")
 #. R/qqmath.R: warning("explicit 'data' specification ignored")
@@ -569,7 +551,6 @@ msgid "model must be a formula object"
 msgstr "model에 입력된 객체의 클래스는 반드시 포뮬러(formula)이어야 합니다."
 
 #. R/interaction.R: warning("nearest observation already identified")
-#. R/interaction.R: warning("nearest observation already identified")
 #: R/interaction.R:0
 msgid "nearest observation already identified"
 msgstr "가장 가까운 관측값이 이미 확인되었습니다."
@@ -594,7 +575,6 @@ msgstr "newFactor는 NULL이 될 수 없습니다. 당신은 버그(bug)를 찾�
 msgid "no intervals"
 msgstr "구간(intervals)이 없습니다"
 
-#. R/interaction.R: gettextf("no observations within %d points", threshold)
 #. R/interaction.R: gettextf("no observations within %d points", threshold)
 #: R/interaction.R:0
 #, fuzzy
@@ -669,18 +649,15 @@ msgid "supplied 'dimnames' have wrong length"
 msgstr "주어진 'dimnames'의 길이가 잘못되었습니다."
 
 #. R/scales.R: stop("the 'at' and 'labels' components of 'scales' may not be lists when 'relation = \"same\"'")
-#. R/scales.R: stop("the 'at' and 'labels' components of 'scales' may not be lists when 'relation = \"same\"'")
 #: R/scales.R:0
 msgid "the 'at' and 'labels' components of 'scales' may not be lists when 'relation = \"same\"'"
 msgstr "'scales'의 구성요소 'at'과 'labels'가 'relation = \"same\"'인 경우에 리스트(list)가 아닐지도 모릅니다."
 
 #. R/update.trellis.R: stop("the at and labels components of scales may not be lists when relation = same")
-#. R/update.trellis.R: stop("the at and labels components of scales may not be lists when relation = same")
 #: R/update.trellis.R:0
 msgid "the at and labels components of scales may not be lists when relation = same"
 msgstr "scales의 구성요소 at과 labels은 relation = same 인 경우에 리스트(list)가 아닐 수도 있습니다."
 
-#. R/histogram.R: gettextf("type='%s' can be misleading in this context", type)
 #. R/histogram.R: gettextf("type='%s' can be misleading in this context", type)
 #: R/histogram.R:0
 msgid "type='%s' can be misleading in this context"

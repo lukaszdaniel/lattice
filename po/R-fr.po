@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lattice 0.13-1\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2025-05-18 13:37\n"
+"POT-Creation-Date: 2025-06-05 16:21\n"
 "PO-Revision-Date: 2021-02-06 16:15+0100\n"
 "Last-Translator: Philippe Grosjean <phgrosjean@sciviews.org>\n"
 "Language-Team: French <R-core@r-project.org>\n"
@@ -23,7 +23,6 @@ msgstr ""
 msgid "%s must be length 1 or a vector of length multiple of group length (%d)"
 msgstr ""
 
-#. R/legend.R: gettextf("'%s' must be a list", "key")
 #. R/legend.R: gettextf("'%s' must be a list", "key")
 #. R/update.trellis.R: gettextf("'%s' must be a list", "par.strip.text")
 #. R/update.trellis.R: gettextf("'%s' must be a list", "par.settings")
@@ -80,7 +79,6 @@ msgid "'f.value' not supported; ignoring"
 msgstr "'f.value' non supporté ; valeur ignorée"
 
 #. R/dataframe-methods.R: stop("'formula' must be a formula object")
-#. R/dataframe-methods.R: stop("'formula' must be a formula object")
 #: R/dataframe-methods.R:0
 #, fuzzy
 msgid "'formula' must be a formula object"
@@ -111,7 +109,6 @@ msgstr "'nbin' doit être un vecteur numérique de longueur 1 ou 2"
 msgid "'nrpoints' should be numeric scalar with value >= 0."
 msgstr "'nrpoints' doit être un scalaire numérique >= 0."
 
-#. R/bwplot.R: warning("'origin' forced to 0 for stacked bars")
 #. R/bwplot.R: warning("'origin' forced to 0 for stacked bars")
 #: R/bwplot.R:0
 msgid "'origin' forced to 0 for stacked bars"
@@ -195,7 +192,6 @@ msgid "Data:"
 msgstr "Données :"
 
 #. R/densityplot.R: gettext("Density")
-#. R/densityplot.R: gettext("Density")
 #. R/histogram.R: gettext("Density")
 #: R/densityplot.R:0 R/histogram.R:0
 msgid "Density"
@@ -245,7 +241,6 @@ msgstr "Intervalles :"
 msgid "Invalid 'shrink' parameter ignored"
 msgstr "Paramètre 'shrink' incorrect et ignoré"
 
-#. R/settings.R: warning("Invalid 'theme' specified")
 #. R/settings.R: warning("Invalid 'theme' specified")
 #: R/settings.R:0
 msgid "Invalid 'theme' specified"
@@ -302,7 +297,6 @@ msgstr "Correspondances multiples pour les noms des composants"
 msgid "No panels available"
 msgstr "Aucun panneau disponible"
 
-#. R/common.R: stop("Non matching lengths")
 #. R/common.R: stop("Non matching lengths")
 #: R/common.R:0
 msgid "Non matching lengths"
@@ -372,7 +366,6 @@ msgstr "L'objet 'trellis' requis n'a pas été sauvegardé"
 msgid "Residuals"
 msgstr "Résidus"
 
-#. R/splom.R: gettext("Scatter Plot Matrix")
 #. R/splom.R: gettext("Scatter Plot Matrix")
 #: R/splom.R:0
 msgid "Scatter Plot Matrix"
@@ -449,20 +442,9 @@ msgid "error"
 msgstr "erreur"
 
 #. R/bwplot.R: warning("explicit 'data' specification ignored")
-#. R/bwplot.R: warning("explicit 'data' specification ignored")
-#. R/bwplot.R: warning("explicit 'data' specification ignored")
-#. R/bwplot.R: warning("explicit 'data' specification ignored")
-#. R/bwplot.R: warning("explicit 'data' specification ignored")
-#. R/bwplot.R: warning("explicit 'data' specification ignored")
-#. R/cloud.R: warning("explicit 'data' specification ignored")
 #. R/cloud.R: warning("explicit 'data' specification ignored")
 #. R/densityplot.R: warning("explicit 'data' specification ignored")
 #. R/histogram.R: warning("explicit 'data' specification ignored")
-#. R/levelplot.R: warning("explicit 'data' specification ignored")
-#. R/levelplot.R: warning("explicit 'data' specification ignored")
-#. R/levelplot.R: warning("explicit 'data' specification ignored")
-#. R/levelplot.R: warning("explicit 'data' specification ignored")
-#. R/levelplot.R: warning("explicit 'data' specification ignored")
 #. R/levelplot.R: warning("explicit 'data' specification ignored")
 #. R/parallel.R: warning("explicit 'data' specification ignored")
 #. R/qqmath.R: warning("explicit 'data' specification ignored")
@@ -564,7 +546,6 @@ msgid "model must be a formula object"
 msgstr "l'argument 'model' doit être un objet formule"
 
 #. R/interaction.R: warning("nearest observation already identified")
-#. R/interaction.R: warning("nearest observation already identified")
 #: R/interaction.R:0
 msgid "nearest observation already identified"
 msgstr "le point le plus proche est déjà identifié"
@@ -589,7 +570,6 @@ msgstr "'newFactor' ne peut être NULL ; vous avez trouvé une anomalie !"
 msgid "no intervals"
 msgstr "pas d'intervalles"
 
-#. R/interaction.R: gettextf("no observations within %d points", threshold)
 #. R/interaction.R: gettextf("no observations within %d points", threshold)
 #: R/interaction.R:0
 #, fuzzy
@@ -663,18 +643,15 @@ msgid "supplied 'dimnames' have wrong length"
 msgstr "le 'dimnames' fourni est de longueur incorrecte"
 
 #. R/scales.R: stop("the 'at' and 'labels' components of 'scales' may not be lists when 'relation = \"same\"'")
-#. R/scales.R: stop("the 'at' and 'labels' components of 'scales' may not be lists when 'relation = \"same\"'")
 #: R/scales.R:0
 msgid "the 'at' and 'labels' components of 'scales' may not be lists when 'relation = \"same\"'"
 msgstr "les composantes 'at' et 'labels' de 'scales' ne peuvent pas être des listes quand 'relation = \"same\"'"
 
 #. R/update.trellis.R: stop("the at and labels components of scales may not be lists when relation = same")
-#. R/update.trellis.R: stop("the at and labels components of scales may not be lists when relation = same")
 #: R/update.trellis.R:0
 msgid "the at and labels components of scales may not be lists when relation = same"
 msgstr "les composantes d'échelles 'at' et 'labels' ne peuvent pas être des listes quand 'relation = same'"
 
-#. R/histogram.R: gettextf("type='%s' can be misleading in this context", type)
 #. R/histogram.R: gettextf("type='%s' can be misleading in this context", type)
 #: R/histogram.R:0
 msgid "type='%s' can be misleading in this context"
