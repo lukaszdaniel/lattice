@@ -2,7 +2,7 @@ ef9e47d4ac451c27026d87a50188d4ba *inst/doc/grid.R
 8a20458a8a55c1bfe485e95472a6fbda *inst/doc/grid.Rnw
 40ea9f67bed51b9469b1658d5335d244 *inst/doc/grid.pdf
 abb6f78b073161dbea871d3d03129ab8 *inst/po/pl/LC_MESSAGES/lattice.mo
-db335d7a1a8d1d9d193fa0e2c194e035 *inst/po/pl/LC_MESSAGES/R-lattice.mo
+f57123bd4aff3d6766a9e23b57654db5 *inst/po/pl/LC_MESSAGES/R-lattice.mo
 7d3aaba599facb99cb376ced44b8cc9a *inst/po/ko/LC_MESSAGES/R-lattice.mo
 d1361131cd82a764252e3b9d5fed0bad *inst/po/de/LC_MESSAGES/R-lattice.mo
 05ae3712d9f510d8f2366a90f74dc0c3 *inst/po/fr/LC_MESSAGES/R-lattice.mo
@@ -102,7 +102,7 @@ f4d056454690daa11fa91ecb5373a70c *tests/dates.R
 b9c92a212a7608bcf9e47936abde87bb *tests/levelplot.R
 aff935fb10fcb2fcf7bd81af6f0ed9f1 *tests/temp.R
 727c4beb4897b4909405e84ba01ce0bc *po/R-en@quot.po
-40aaf746ebfc2c2645c34003353a00ad *po/R-pl.po
+c32004a61e3a647d20504329bf5c4391 *po/R-pl.po
 a29579531ac4ba9492c4295fabaea3b0 *po/R-de.po
 58ddb315ae3d336e9dc75be1aecc1b28 *po/lattice.pot
 9b05b611af82479c53e56dfa1e5b5160 *po/R-it.po

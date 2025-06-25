@@ -163,7 +163,7 @@ msgstr "Nie można mieć logarytmicznej skali Y"
 #. R/interaction.R: message("Click on panel to focus")
 #: R/interaction.R:0
 msgid "Click on panel to focus"
-msgstr "Kliknij na panel aby go sfokusować"
+msgstr "Kliknij na panel aby go skupić"
 
 #. R/interaction.R: message("Click to choose one point to highlight")
 #: R/interaction.R:0
@@ -273,7 +273,7 @@ msgstr "Niepoprawna wartość 'index.cond'"
 #. R/common.R: stop("Length check mismatch; you have found a bug!")
 #: R/common.R:0
 msgid "Length check mismatch; you have found a bug!"
-msgstr "Sprawdzenie długości nie zgadza się; znalazłeś błąd!"
+msgstr "Sprawdzenie długości nie zgadza się; znaleziono błąd!"
 
 #. R/common.R: warning("More pages in layout than seem to be necessary.")
 #: R/common.R:0
@@ -372,7 +372,7 @@ msgstr "Wybieranie panelu na pozycji (%g, %g)"
 #. R/legend.R: stop("Sorry, align=FALSE is not supported")
 #: R/legend.R:0
 msgid "Sorry, align=FALSE is not supported"
-msgstr "Przykro mi, 'allign = FALSE' nie jest wpierane"
+msgstr "Przepraszamy, 'allign = FALSE' nie jest wpierane"
 
 #. R/update.trellis.R: gettextf("Unrecognized value of 'aspect': '%s'", as.character(aspect))
 #: R/update.trellis.R:0
@@ -550,12 +550,12 @@ msgstr "co najmniej jeden panel jest wymagany"
 #. R/common.R: stop("newFactor != NULL && groups == NULL does not hold; you have found a bug!")
 #: R/common.R:0
 msgid "newFactor != NULL && groups == NULL does not hold; you have found a bug!"
-msgstr "newFactor != NULL && groups == NULL nie trzyma się; znalazłeś błąd!"
+msgstr "newFactor != NULL && groups == NULL nie trzyma się; znaleziono błąd!"
 
 #. R/common.R: stop("newFactor cannot be NULL; you have found a bug!")
 #: R/common.R:0
 msgid "newFactor cannot be NULL; you have found a bug!"
-msgstr "'newFactor' nie może mieć wartości NULL; znalazłeś błąd!"
+msgstr "'newFactor' nie może mieć wartości NULL; znaleziono błąd!"
 
 #. R/shingle.R: gettext("\nno intervals\n")
 #: R/shingle.R:0
