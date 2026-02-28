@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: lattice 0.22-7\n"
-"POT-Creation-Date: 2025-06-05 16:21\n"
+"Project-Id-Version: lattice 0.22-9\n"
+"POT-Creation-Date: 2026-02-28 19:29\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -822,13 +822,6 @@ msgstr ""
 #. R/histogram.R: warning("problem with 'hist' computations")
 
 msgid "problem with 'hist' computations"
-msgstr ""
-
-
-#: R/axis.R: 0
-#. R/axis.R: stop("range too small for min.n")
-
-msgid "range too small for min.n"
 msgstr ""
 
 

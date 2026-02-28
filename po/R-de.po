@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 4.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2025-06-05 16:21\n"
+"POT-Creation-Date: 2026-02-28 19:29\n"
 "PO-Revision-Date: 2025-03-18 11:16+0100\n"
 "Last-Translator: Detlef Steuer <steuer@hsu-hh.de>\n"
 "Language-Team: German <debian-l10n-german@lists.debian.org>\n"
@@ -606,11 +606,6 @@ msgstr "panel.smoothScatter() benötigt das KernSmooth-Paket, aber der KernSmoot
 msgid "problem with 'hist' computations"
 msgstr "Problem mit 'hist'-Berechnungen"
 
-#. R/axis.R: stop("range too small for min.n")
-#: R/axis.R:0
-msgid "range too small for min.n"
-msgstr "Spannweite zu klein für min.n"
-
 #. R/interaction.R: stop("row must be specified")
 #: R/interaction.R:0
 msgid "row must be specified"
@@ -675,6 +670,9 @@ msgstr "x muss eine Matrix mit 2 Spalten sein"
 #: R/qq.R:0
 msgid "y must have exactly 2 levels"
 msgstr "y muss genau 2 Stufen haben"
+
+#~ msgid "range too small for min.n"
+#~ msgstr "Spannweite zu klein für min.n"
 
 #~ msgid "length of '%s' must be  1 or multiple of group length (%d)"
 #~ msgstr "Länge von '%s' muss 1 sein oder ein Vielfaches der Gruppenlänge (%d)"

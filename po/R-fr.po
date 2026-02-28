@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: lattice 0.13-1\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2025-06-05 16:21\n"
+"POT-Creation-Date: 2026-02-28 19:29\n"
 "PO-Revision-Date: 2021-02-06 16:15+0100\n"
 "Last-Translator: Philippe Grosjean <phgrosjean@sciviews.org>\n"
 "Language-Team: French <R-core@r-project.org>\n"
@@ -607,11 +607,6 @@ msgstr "panel.smoothScatter() nécessite le paquet KernSmooth, mais impossible d
 msgid "problem with 'hist' computations"
 msgstr "calcul d'histogramme défectueux"
 
-#. R/axis.R: stop("range too small for min.n")
-#: R/axis.R:0
-msgid "range too small for min.n"
-msgstr "étendue trop étroite pour min.n"
-
 #. R/interaction.R: stop("row must be specified")
 #: R/interaction.R:0
 msgid "row must be specified"
@@ -676,6 +671,9 @@ msgstr "'x' doit être une matrice à 2 colonnes"
 #: R/qq.R:0
 msgid "y must have exactly 2 levels"
 msgstr "'y' doit avoir exactement 2 niveaux"
+
+#~ msgid "range too small for min.n"
+#~ msgstr "étendue trop étroite pour min.n"
 
 #~ msgid "Invalid value of perm.cond"
 #~ msgstr "Valeur de 'perm.cond' incorrecte"

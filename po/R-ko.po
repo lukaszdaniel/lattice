@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 3.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2025-06-05 16:21\n"
+"POT-Creation-Date: 2026-02-28 19:29\n"
 "PO-Revision-Date: 2015-02-09 00:06-0600\n"
 "Last-Translator:Chel Hee Lee  <chl948@mail.usask.ca>\n"
 "Language-Team: Chel Hee Lee  <chl948@mail.usask.ca>\n"
@@ -612,11 +612,6 @@ msgstr "panel.smoothScatter()는 KernSmooth 패키지를 필요로 하는데 Ker
 #: R/histogram.R:0
 msgid "problem with 'hist' computations"
 msgstr "'hist' 함수를 이용한 계산에서 문제가 발생했습니다."
-
-#. R/axis.R: stop("range too small for min.n")
-#: R/axis.R:0
-msgid "range too small for min.n"
-msgstr ""
 
 #. R/interaction.R: stop("row must be specified")
 #: R/interaction.R:0
