@@ -115,5 +115,3 @@ popViewport()
 pushViewport(viewport(layout.pos.col = 2))
 print(latticePlot, newpage = FALSE)
 popViewport(2)
-
-

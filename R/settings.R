@@ -111,15 +111,15 @@ custom_theme <-
 {
     theme <-
         list(plot.polygon      = list(col = fill[1], border = fg[1]),
-             box.rectangle     = list(col= symbol[1]),
-             box.umbrella      = list(col= symbol[1]),
+             box.rectangle     = list(col = symbol[1]),
+             box.umbrella      = list(col = symbol[1]),
              dot.line          = list(col = reference),
-             dot.symbol        = list(col = symbol[1]),
+             dot.symbol        = list(col = symbol[1], fill = fill[1]),
              plot.line         = list(col = symbol[1]),
-             plot.symbol       = list(col= symbol[1]),
+             plot.symbol       = list(col = symbol[1], fill = fill[1]),
              reference.line    = list(col = reference),
              superpose.line    = list(col = symbol),
-             superpose.symbol  = list(col = symbol),
+             superpose.symbol  = list(col = symbol, fill = fill),
              superpose.polygon = list(col = fill, border = fg),
 
              regions           = list(col = colorRampPalette(region)(100)),
@@ -1076,6 +1076,7 @@ lattice.options <- function(...)
               ##layout = NULL,
               skip = FALSE,
               strip = strip.default,
+              case.names = TRUE, # if TRUE, try to provide reasonable case labels to panel function
               xscale.components = xscale.components.default,
               yscale.components = yscale.components.default,
               axis = axis.default),
